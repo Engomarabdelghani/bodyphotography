@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.env
+.DS_Store
+.vscodesrc/images/
+public/images/
+*.mp4
+*.mov
+*.MOV
+*.webp

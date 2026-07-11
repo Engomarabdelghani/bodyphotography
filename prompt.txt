@@ -1,0 +1,46 @@
+I want you to redesign my current React portfolio website to match the same level of quality, cinematic feel, smoothness, premium layout, and modern creative direction as this reference website:
+
+https://ahmed-zidan.penguinthebuilder.com/
+
+Analyze the reference carefully and use it as inspiration for:
+
+* Layout structure
+* Typography hierarchy
+* Smooth animations
+* Premium spacing
+* Cinematic dark mode aesthetic
+* Section transitions
+* Modern interactions
+* Luxury portfolio vibe
+* Professional visual storytelling
+
+Important:
+
+* Do NOT copy the website directly
+* Create a unique version inspired by the same premium quality and immersive experience
+* Keep my current content and functionality but redesign everything professionally
+* Make the UI feel world-class and production-ready
+* Use modern creative agency / fashion portfolio inspiration
+
+Requirements:
+
+* Full premium DARK MODE design
+* Cinematic fullscreen hero section
+* Smooth scrolling experience
+* Elegant hover animations
+* Modern navbar with glassmorphism
+* Beautiful image/video gallery layouts
+* Premium typography
+* High-end transitions using Framer Motion
+* Responsive on all devices
+* Clean and scalable React architecture
+
+Also:
+
+* Improve every weak UI section
+* Fix spacing/alignment consistency
+* Make the website feel immersive and artistic
+* Avoid generic template designs
+* Ensure all pages feel connected visually
+
+The final result should feel like an award-winning luxury photographer/videographer portfolio website inspired by the reference above.
