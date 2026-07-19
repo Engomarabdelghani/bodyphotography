@@ -99,8 +99,9 @@ const footballClubsIds    = ['16_lzc1g9', '17_uxdomc', '18_rkbntq'];
 const footballAcademyIds  = ['12_ox4rfu', '13_tqmqw3', '14_pdril1', '15_kbufrv' , '45_xcfgya'];
 const footballRamadanIds  = ["19_njpu3f", '20_sxgefs'];
 const footballCVIds       = ['6_jqzdcn', '7_jdmnfz', '10_qorfpz', '11_vtsuos', '8_1_qdbocy', '23_bru7wc', '9_rih3i1', '25_xggb2j', '24_ex0i19', '26_loyts5', '27_nfn04z'];
-const gymIds              = [];
-
+const gymIds              = ['GYM_1_n5mzuu'];
+const podcastIds           = ['E1_1_1_ctckux'];
+const FoodVideoIds    = ['7_nqe1yf', '4_airstu', '3_dw9fku', '8_j0nono', '5_k7wb23', '2_eyphsx', '9_qs5mpt', '1_td27yg'];
 // ============================================
 // Helpers
 // ============================================
@@ -232,12 +233,31 @@ export const GALLERIES = [
     id: 'gym-videos',
     title: 'Gym Videos',
     description: 'Fitness and training workouts',
-    thumbnail: img('141_kjwhfa.jpg'),
+    thumbnail: img('Gym_tocjwy.jpg'),
     category: 'Gym',
     color: 'from-red-500 to-orange-600',
     media: toVideoMedia(gymIds, 'Gym'),
   },
-].filter((g) => g.media.length > 0); // مش بيظهر gallery فاضية
+  {
+    id: 'podcast-videos',
+    title: 'Podcast Videos',
+    description: 'Engaging podcast sessions',
+    thumbnail: img('podcast_beuscu.jpg'),
+    category: 'Podcast',
+    color: 'from-purple-500 to-indigo-600',
+    media: toVideoMedia(podcastIds, 'Podcast'),
+  },
+  { 
+    id: 'food-videos',
+    title: 'Food Videos',
+    description: 'Delicious food and recipe videos',
+    thumbnail: img('food_pdhdlm.jpg'),
+    category: 'Food',
+    color: 'from-yellow-500 to-orange-600',
+    media: toVideoMedia(FoodVideoIds, 'Food'),
+  },
+
+].filter((g) => g.media.length > 0); 
 
 export const featuredGalleries = GALLERIES.slice(0, 6).map((g) => ({
   title:       g.title,
